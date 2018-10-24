@@ -88,7 +88,7 @@ void loop() {
         lcd.print(sensors.getTempCByIndex(0));//imprime no lcd o valor da temperatura 
         lcd.write(223);//imprime no display lcd o símbolo 'º'
         digitalWrite(10, LOW);
-        delay(3000);
+        delay(3500);
 
     }
 
@@ -106,7 +106,7 @@ void loop() {
         lcd.print(sensors.getTempCByIndex(0));//imprime no lcd o valor da temperatura 
         lcd.write(223);//imprime no display lcd o símbolo 'º'
         digitalWrite(10, HIGH);
-        delay(3000);
+        delay(3500);
 
     }
     delay(500);
